@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="MasterDetailsRpt" Bookmark="Table of Contents" PageWidth="850" PageHeight="1100" Version="19.1" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="2" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="51.6666679">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRLine" Name="line2" SizeF="538.3333,10.4999771" LocationFloat="26.666666, 33.0000038" ForeColor="Black" BorderColor="Black" BorderDashStyle="Solid">
+          <StylePriority Ref="5" UseForeColor="false" UseBorderColor="false" UseBorderDashStyle="false" />
+        </Item1>
+        <Item2 Ref="6" ControlType="XRLabel" Name="SupplierLabel" Multiline="true" SizeF="100,23" LocationFloat="26.666666, 10" Font="Arial, 9.75pt, style=Bold, Underline" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="7" Expression="[CompanyName]" PropertyName="Bookmark" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="8" UseFont="false" />
+        </Item2>
+      </Controls>
+    </Item3>
+    <Item4 Ref="9" ControlType="DetailReportBand" Name="DetailReport" Level="0">
+      <Bands>
+        <Item1 Ref="10" ControlType="DetailBand" Name="DetailReportDetail" HeightF="50.49998">
+          <Controls>
+            <Item1 Ref="11" ControlType="XRLine" Name="line1" LineStyle="Dash" SizeF="538.3333,10.4999771" LocationFloat="62.5, 32.99998" ForeColor="DarkRed" BorderColor="Black" BorderDashStyle="Solid">
+              <StylePriority Ref="12" UseForeColor="false" UseBorderColor="false" UseBorderDashStyle="false" />
+            </Item1>
+            <Item2 Ref="13" ControlType="XRLabel" Name="ProductLabel" Multiline="true" Text="ProductLabel" BookmarkParent="#Ref-6" SizeF="100,23" LocationFloat="62.5, 10" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="14" Expression="[Products].[ProductName]" PropertyName="Bookmark" EventName="BeforePrint" />
+              </ExpressionBindings>
+            </Item2>
+          </Controls>
+        </Item1>
+        <Item2 Ref="15" ControlType="DetailReportBand" Name="DetailReportInner" Level="0">
+          <Bands>
+            <Item1 Ref="16" ControlType="DetailBand" Name="DetailReportInnerDetail" HeightF="48.666687">
+              <Controls>
+                <Item1 Ref="17" ControlType="XRTable" Name="table1" SizeF="300,25" LocationFloat="102.5, 13.666687" OddStyleName="Style1" Padding="2,2,0,0,96">
+                  <Rows>
+                    <Item1 Ref="18" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+                      <Cells>
+                        <Item1 Ref="19" ControlType="XRTableCell" Name="tcProductQuantity" Weight="1" Multiline="true" Text="tcProductQuantity" />
+                        <Item2 Ref="20" ControlType="XRTableCell" Name="tcProductUnitPrice" Weight="1" Multiline="true" Text="tcProductUnitPrice" />
+                        <Item3 Ref="21" ControlType="XRTableCell" Name="tcProductPriceTotal" Weight="1" Multiline="true" Text="tcProductPriceTotal" />
+                      </Cells>
+                    </Item1>
+                  </Rows>
+                </Item1>
+              </Controls>
+            </Item1>
+          </Bands>
+        </Item2>
+      </Bands>
+    </Item4>
+    <Item5 Ref="22" ControlType="ReportHeaderBand" Name="ReportHeader">
+      <Controls>
+        <Item1 Ref="23" ControlType="XRTableOfContents" Name="tableOfContents1" LocationFloat="0, 0">
+          <LevelTitle Ref="24" Text="Suppliers" Padding="0,0,0,0,100" />
+          <LevelDefault Ref="25" Padding="0,0,0,0,100" />
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="26" Name="Style1" BorderStyle="Inset" Padding="0,0,0,0,100" ForeColor="255,224,224,224" BackColor="White" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="InstrumentConfigurationRpt" Margins="100, 100, 27, 100" PageWidth="850" PageHeight="1100" Version="19.1" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" HeightF="26.999918" />
+    <Item2 Ref="2" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="35.99986" />
+    <Item4 Ref="4" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="104.166969">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRLabel" Name="label6" Multiline="true" Text="Monochromators" SizeF="165,23" LocationFloat="50, 31.666666" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="6" UseFont="false" />
+        </Item1>
+        <Item2 Ref="7" ControlType="XRTable" Name="table1" SizeF="488.3333,25" LocationFloat="50, 74.3334961" Padding="2,2,0,0,96">
+          <Rows>
+            <Item1 Ref="8" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="9" ControlType="XRTableCell" Name="tableCell1" Weight="1" Multiline="true" Text="Name" />
+                <Item2 Ref="10" ControlType="XRTableCell" Name="tableCell2" Weight="1" Multiline="true" Text="Number&#xD;&#xA;" />
+                <Item3 Ref="11" ControlType="XRTableCell" Name="tableCell3" Weight="1" Multiline="true" Text="Filter" />
+                <Item4 Ref="12" ControlType="XRTableCell" Name="tableCell4" Weight="1" Multiline="true" Text="Detector type" />
+                <Item5 Ref="13" ControlType="XRTableCell" Name="tableCell5" Weight="1" Multiline="true" Text="Disabled" />
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item2>
+      </Controls>
+    </Item4>
+    <Item5 Ref="14" ControlType="GroupHeaderBand" Name="GroupHeader2" Level="1" HeightF="120.333252">
+      <Controls>
+        <Item1 Ref="15" ControlType="XRLabel" Name="label1" Multiline="true" Text="Instrument configuration" SizeF="165,23" LocationFloat="25.833334, 0" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="16" UseFont="false" />
+        </Item1>
+        <Item2 Ref="17" ControlType="XRLabel" Name="label2" Multiline="true" Text="Instrument:" SizeF="100,16.333313" LocationFloat="25.833334, 38.666687" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="18" UseFont="false" />
+        </Item2>
+        <Item3 Ref="19" ControlType="XRLabel" Name="label3" Multiline="true" Text="X-ray tube power supply:" SizeF="151.666672,16.333313" LocationFloat="25.833334, 55" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="20" UseFont="false" />
+        </Item3>
+        <Item4 Ref="21" ControlType="XRLabel" Name="label4" Multiline="true" Text="Conveyor type:" SizeF="100,16.333313" LocationFloat="25.833334, 71.33331" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="22" UseFont="false" />
+        </Item4>
+        <Item5 Ref="23" ControlType="XRLabel" Name="label5" Multiline="true" Text="Number of position:" SizeF="151.666672,16.333313" LocationFloat="25.833334, 87.666626" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="24" UseFont="false" />
+        </Item5>
+        <Item6 Ref="25" ControlType="XRLabel" Name="label7" Multiline="true" Text="Target:" SizeF="100,16.333313" LocationFloat="25.833334, 103.999939" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="26" UseFont="false" />
+        </Item6>
+        <Item7 Ref="27" ControlType="XRLabel" Name="label8" Multiline="true" Text="label12" SizeF="100,16.333313" LocationFloat="215, 103.999939" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="28" Expression="[Target]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="29" UseFont="false" />
+        </Item7>
+        <Item8 Ref="30" ControlType="XRLabel" Name="label9" Multiline="true" Text="label9" TextAlignment="TopLeft" SizeF="100,16.333313" LocationFloat="215, 55" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="31" Expression="[XRayTubePowerSupply]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="32" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="33" ControlType="XRLabel" Name="label10" Multiline="true" Text="label10" SizeF="100,16.333313" LocationFloat="215, 71.33331" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="34" Expression="[ConveyorType]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="35" UseFont="false" />
+        </Item9>
+        <Item10 Ref="36" ControlType="XRLabel" Name="label11" Multiline="true" Text="label7" SizeF="129.166656,16.333313" LocationFloat="215, 38.666687" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="37" Expression="[InstrumentName]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="38" UseFont="false" />
+        </Item10>
+      </Controls>
+    </Item5>
+    <Item6 Ref="40" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="Monochromators" DataSource="#Ref-39">
+      <Bands>
+        <Item1 Ref="41" ControlType="DetailBand" Name="Detail1">
+          <Controls>
+            <Item1 Ref="42" ControlType="XRTable" Name="table2" SizeF="500,25" LocationFloat="50, 23.333334" Padding="2,2,0,0,96">
+              <Rows>
+                <Item1 Ref="43" ControlType="XRTableRow" Name="tableRow2" Weight="1">
+                  <Cells>
+                    <Item1 Ref="44" ControlType="XRTableCell" Name="tableCell6" Weight="1" Multiline="true" Text="tableCell6">
+                      <ExpressionBindings>
+                        <Item1 Ref="45" Expression="[Name]" PropertyName="Text" EventName="BeforePrint" />
+                      </ExpressionBindings>
+                    </Item1>
+                    <Item2 Ref="46" ControlType="XRTableCell" Name="tableCell7" Weight="1" Multiline="true" />
+                    <Item3 Ref="47" ControlType="XRTableCell" Name="tableCell8" Weight="1" Multiline="true" Text="tableCell8">
+                      <ExpressionBindings>
+                        <Item1 Ref="48" Expression="[Filter]" PropertyName="Text" EventName="BeforePrint" />
+                      </ExpressionBindings>
+                    </Item3>
+                    <Item4 Ref="49" ControlType="XRTableCell" Name="tableCell9" Weight="1" Multiline="true" Text="tableCell9">
+                      <ExpressionBindings>
+                        <Item1 Ref="50" Expression="[DetectorType]" PropertyName="Text" EventName="BeforePrint" />
+                      </ExpressionBindings>
+                    </Item4>
+                    <Item5 Ref="51" ControlType="XRTableCell" Name="tableCell10" Weight="1" Multiline="true" Text="tableCell10">
+                      <ExpressionBindings>
+                        <Item1 Ref="52" Expression="[Disabled]" PropertyName="Text" EventName="BeforePrint" />
+                      </ExpressionBindings>
+                    </Item5>
+                  </Cells>
+                </Item1>
+              </Rows>
+            </Item1>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item6>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="53" Name="Style1" BorderStyle="Inset" Padding="0,0,0,0,100" BackColor="255,224,224,224" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="54" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v19.1" Name="dsInstrumentConfigurationHeaderData" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0iZHNJbnN0cnVtZW50Q29uZmlndXJhdGlvbkhlYWRlckRhdGEiPjxEYXRhU291cmNlIFR5cGU9IlBvQ1JlcG9ydHMuTW9kZWxzLkluc3RydW1lbnRDb25maWd1cmF0aW9uSGVhZGVyRGF0YU1vZGVsLCBQb0NSZXBvcnRzLk1vZGVscywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIC8+PC9PYmplY3REYXRhU291cmNlPg==" />
+    <Item2 Ref="39" ObjectType="DevExpress.DataAccess.EntityFramework.EFDataSource,DevExpress.DataAccess.v19.1" Name="efDataSource1" ConnectionStringName="localdb_TestReportDB_Connection" ConnectionString="" Source="PoCReports.DataAccessLayer.ReportDBContext, PoCReports.DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

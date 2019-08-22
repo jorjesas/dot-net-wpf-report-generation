@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="GoniometerScanGraphicsRpt" PageWidth="850" PageHeight="1100" Version="19.1" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="4" ControlType="DetailBand" Name="Detail" HeightF="598.3333">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRChart" Name="chart1" DataSource="#Ref-0" SizeF="640,386.6667" LocationFloat="0, 44.1666679" BorderColor="Black" Borders="None">
+          <Chart Ref="6">
+            <DataContainer Ref="7">
+              <SeriesSerializable>
+                <Item1 Ref="8" Name="Series 1" LegendName="Default Legend" ArgumentDataMember="X" ValueDataMembersSerializable="Y" LabelsVisibility="False" ShowInLegend="false">
+                  <View Ref="9" MarkerVisibility="False" Color="Black" TypeNameSerializable="SplineSeriesView">
+                    <LineStyle Ref="10" Thickness="1" />
+                  </View>
+                </Item1>
+              </SeriesSerializable>
+            </DataContainer>
+            <OptionsPrint Ref="11" ImageFormat="Metafile" />
+            <Diagram Ref="12" TypeNameSerializable="XYDiagram">
+              <AxisX Ref="13" VisibleInPanesSerializable="-1">
+                <Title Ref="14" Visibility="True" Text="Angle 2 Theta [Degree]" />
+                <CrosshairAxisLabelOptions Ref="15" Visibility="False" />
+                <WholeRange Ref="16" Auto="false" MinValueSerializable="44" MaxValueSerializable="46" />
+                <NumericScaleOptions Ref="17" AutoGrid="false" GridSpacing="0.4">
+                  <IntervalOptions Ref="18" />
+                </NumericScaleOptions>
+              </AxisX>
+              <AxisY Ref="19" VisibleInPanesSerializable="-1">
+                <Tickmarks Ref="20" Visible="false" MinorVisible="false" />
+                <Title Ref="21" Visibility="True" Text="Intensity [KCps]" />
+                <VisualRange Ref="22" Auto="false" AutoSideMargins="false" SideMarginsValue="60" MinValueSerializable="0" MaxValueSerializable="6" />
+                <WholeRange Ref="23" Auto="false" MinValueSerializable="0" MaxValueSerializable="60" />
+                <GridLines Ref="24" Visible="false" />
+                <NumericScaleOptions Ref="25" AutoGrid="false" GridSpacing="10">
+                  <IntervalOptions Ref="26" />
+                </NumericScaleOptions>
+              </AxisY>
+              <DefaultPane Ref="27" EnableAxisXScrolling="False" EnableAxisYScrolling="False" EnableAxisXZooming="False" EnableAxisYZooming="False">
+                <StackedBarTotalLabel Ref="28">
+                  <ConnectorLineStyle Ref="29" />
+                </StackedBarTotalLabel>
+              </DefaultPane>
+            </Diagram>
+          </Chart>
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="30" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataSource="#Ref-0">
+      <Bands>
+        <Item1 Ref="31" ControlType="DetailBand" Name="Detail1" HeightF="200" />
+      </Bands>
+    </Item4>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v19.1" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiPjxEYXRhU291cmNlIFR5cGU9IlBvQ1JlcG9ydHMuTW9kZWxzLlhZUG9pbnRNb2RlbCwgUG9DUmVwb3J0cy5Nb2RlbHMsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiAvPjwvT2JqZWN0RGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

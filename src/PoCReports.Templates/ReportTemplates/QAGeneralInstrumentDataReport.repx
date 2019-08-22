@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="QAGeneralInstrumentDataReport" PageWidth="850" PageHeight="1100" Version="19.1" DataSource="#Ref-0" Font="Arial, 9.75pt" Padding="5,5,0,0,100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRLine" Name="line1" SizeF="635,2" LocationFloat="6.66666651, 86.6666641" Padding="0,0,0,0,100">
+          <StylePriority Ref="4" UsePadding="false" />
+        </Item1>
+        <Item2 Ref="5" ControlType="XRLabel" Name="label1" Multiline="true" Text="For information request, contact directly Termofischer." SizeF="248.333344,12" LocationFloat="10, 70.66666" Font="Arial, 7.20000029pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="6" UseFont="false" />
+        </Item2>
+        <Item3 Ref="7" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwBcAHIAZQBkADIANQA1AFwAZwByAGUAZQBuADAAXABiAGwAdQBlADAAIAA7AH0AewBcACoAXABkAGUAZgBjAGgAcAAgAFwAZgAxAFwAZgBzADIANAB9AHsAXABzAHQAeQBsAGUAcwBoAGUAZQB0ACAAewBcAHEAbABcAGYAMQBcAGYAcwAyADQAIABOAG8AcgBtAGEAbAA7AH0AewBcACoAXABjAHMAMQBcAGYAMQBcAGYAcwAyADQAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXAB1AGwAXABmADEAXABmAHMAMgA0AFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGgAdABtAGEAdQB0AHMAcABcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABuAG8AZwByAG8AdwBhAHUAdABvAGYAaQB0AFwAcABhAHIAZABcAHAAbABhAGkAbgBcAHEAbAB7AFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGYAMgBcAGYAcwA0ADAAXABjAGYAMwAgAFQAaABlAHIAbQBvACAARgBpAHMAaABlAHIAIABTAGMAaQBlAG4AdABpAGYAaQBjAH0AXABmADIAXABmAHMANAAwAFwAYwBmADMAXABwAGEAcgB9AA==" SizeF="308.333344,33.0000038" LocationFloat="10, 10" Font="Arial, 19.8000011pt, charSet=0" ForeColor="Red" Padding="2,2,0,0,100">
+          <StylePriority Ref="8" UseFont="false" UseForeColor="false" />
+        </Item3>
+      </Controls>
+    </Item1>
+    <Item2 Ref="9" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="10" ControlType="DetailBand" Name="Detail" HeightF="499.166656">
+      <Controls>
+        <Item1 Ref="11" ControlType="XRLabel" Name="label10" Multiline="true" Text="label10" SizeF="100,15.3332825" LocationFloat="386.666656, 469.833374" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="12" Expression="[InstrumentNumber]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="13" UseFont="false" />
+        </Item1>
+        <Item2 Ref="14" ControlType="XRLabel" Name="label9" Multiline="true" Text="label9" SizeF="100,16.333313" LocationFloat="386.666656, 450.833344" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="15" Expression="[InstrumentName]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="16" UseFont="false" />
+        </Item2>
+        <Item3 Ref="17" ControlType="XRLabel" Name="label7" Multiline="true" Text="Instrument Nr:" SizeF="100,16.333313" LocationFloat="162.5, 469" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="18" UseFont="false" />
+        </Item3>
+        <Item4 Ref="19" ControlType="XRLabel" Name="label8" Multiline="true" Text="Instrument:" SizeF="100,16.333313" LocationFloat="162.5, 450.833344" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="20" UseFont="false" />
+        </Item4>
+        <Item5 Ref="21" ControlType="XRLabel" Name="label6" Multiline="true" Text="QC/QA Report" SizeF="275,22.9999981" LocationFloat="162.5, 399.500031" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="22" UseFont="false" />
+        </Item5>
+        <Item6 Ref="23" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" TextFormatString="{0:d MMMM, yyyy}" SizeF="100,16.333313" LocationFloat="200.833328, 176.8333" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="24" UseFont="false" />
+        </Item6>
+        <Item7 Ref="25" ControlType="XRLabel" Name="label5" Multiline="true" Text="Analytical calibration expert:" SizeF="177.5,14.6667023" LocationFloat="10, 209.499969" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="26" UseFont="false" />
+        </Item7>
+        <Item8 Ref="27" ControlType="XRLabel" Name="label4" Multiline="true" Text="Quality assurance by:" SizeF="136.666672,16.3333588" LocationFloat="10, 193.166611" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="28" UseFont="false" />
+        </Item8>
+        <Item9 Ref="29" ControlType="XRLabel" Name="label3" Multiline="true" Text="Date:" SizeF="100,16.333313" LocationFloat="10, 176.8333" Font="Arial, 9pt, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="30" UseFont="false" />
+        </Item9>
+        <Item10 Ref="31" ControlType="XRLabel" Name="label2" Multiline="true" Text="QUALITY ASSURANCE REPORT" SizeF="275,22.9999981" LocationFloat="10, 72.83335" Font="Arial, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="32" UseFont="false" />
+        </Item10>
+      </Controls>
+    </Item3>
+    <Item4 Ref="33" ControlType="ReportFooterBand" Name="ReportFooter">
+      <Controls>
+        <Item1 Ref="34" ControlType="XRSubreport" Name="subreport1" GenerateOwnPages="true" SizeF="649,23" LocationFloat="0, 21.8333435" />
+      </Controls>
+    </Item4>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v19.1" Name="dsInstrumentGeneralData" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0iZHNJbnN0cnVtZW50R2VuZXJhbERhdGEiPjxEYXRhU291cmNlIFR5cGU9IlBvQ1JlcG9ydHMuTW9kZWxzLlFBSW5zdHJ1bWVudEdlbmVyYWxEYXRhTW9kZWwsIFBvQ1JlcG9ydHMuTW9kZWxzLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIgLz48L09iamVjdERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

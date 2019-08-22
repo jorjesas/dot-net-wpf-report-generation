@@ -1,0 +1,34 @@
+﻿<Window x:Class="PoCReportGenerationUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PoCReportGenerationUI"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        Title="Report Generator" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Report Generator">
+                <Canvas>
+                    <TextBlock>
+                This is where the outline of the entire document will be placed.
+                    </TextBlock>
+                    <Button Command="{Binding GenerateCommand}" Height="20" Width="200" >Generate Report</Button>
+                    <Button Command="{Binding GenerateCommand2}" Height="20" Width="200" >View Report</Button>
+                </Canvas>
+            </TabItem>
+            
+            <TabItem Header="Tab 2" >
+                <Label Content="Content goes here..." />
+                
+            </TabItem>
+            <TabItem Header="Tab 3">
+                <Label Content="Content goes here..." />
+            </TabItem>
+        </TabControl>
+        
+        <!--<Label Content="{Binding Text}"></Label>-->
+    </Grid>
+</Window>

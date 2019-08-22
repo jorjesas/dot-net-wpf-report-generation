@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="SpectrometerLayoutRpt" PageWidth="850" PageHeight="1100" Version="19.1" DataMember="Monochromator" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="3" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="4" ControlType="DetailBand" Name="Detail">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRTable" Name="table1" SizeF="650,25" LocationFloat="0, 30.833334">
+          <Rows>
+            <Item1 Ref="6" ControlType="XRTableRow" Name="tableRow1" Weight="11.5">
+              <Cells>
+                <Item1 Ref="7" ControlType="XRTableCell" Name="tableCell1" Weight="0.66666666666666663" Multiline="true" Text="tableCell1">
+                  <ExpressionBindings>
+                    <Item1 Ref="8" Expression="[DetectorType]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item1>
+                <Item2 Ref="9" ControlType="XRTableCell" Name="tableCell2" Weight="0.66666666666666663" Multiline="true" Text="tableCell2">
+                  <ExpressionBindings>
+                    <Item1 Ref="10" Expression="[Disabled]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item2>
+                <Item3 Ref="11" ControlType="XRTableCell" Name="tableCell3" Weight="0.66666666666666663" Multiline="true" Text="tableCell3">
+                  <ExpressionBindings>
+                    <Item1 Ref="12" Expression="[Filter]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item3>
+                <Item4 Ref="13" ControlType="XRTableCell" Name="tableCell4" Weight="0.66666666666666663" Multiline="true" Text="tableCell4" TextAlignment="TopRight">
+                  <ExpressionBindings>
+                    <Item1 Ref="14" Expression="[Id]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item4>
+                <Item5 Ref="15" ControlType="XRTableCell" Name="tableCell5" Weight="0.66666666666666663" Multiline="true" Text="tableCell5">
+                  <ExpressionBindings>
+                    <Item1 Ref="16" Expression="[Name]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                </Item5>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item3>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v19.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9ImxvY2FsaG9zdF9UZXN0UmVwb3J0REJfQ29ubmVjdGlvbiAxIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iTW9ub2Nocm9tYXRvciI+PFRhYmxlcz48VGFibGUgTmFtZT0iTW9ub2Nocm9tYXRvciIgLz48L1RhYmxlcz48Q29sdW1ucz48Q29sdW1uIFRhYmxlPSJNb25vY2hyb21hdG9yIiBOYW1lPSJJZCIgLz48Q29sdW1uIFRhYmxlPSJNb25vY2hyb21hdG9yIiBOYW1lPSJOYW1lIiAvPjxDb2x1bW4gVGFibGU9Ik1vbm9jaHJvbWF0b3IiIE5hbWU9IkRldGVjdG9yVHlwZSIgLz48Q29sdW1uIFRhYmxlPSJNb25vY2hyb21hdG9yIiBOYW1lPSJGaWx0ZXIiIC8+PENvbHVtbiBUYWJsZT0iTW9ub2Nocm9tYXRvciIgTmFtZT0iRGlzYWJsZWQiIC8+PC9Db2x1bW5zPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iTW9ub2Nocm9tYXRvciI+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTmFtZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEZXRlY3RvclR5cGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRmlsdGVyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRpc2FibGVkIiBUeXBlPSJCb29sZWFuIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

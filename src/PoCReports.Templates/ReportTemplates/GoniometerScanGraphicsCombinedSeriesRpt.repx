@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.5.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="GoniometerScanGraphicsCombinedSeriesRpt" Margins="100, 52, 100, 100" PageWidth="850" PageHeight="1100" Version="19.1" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="2" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="484.1667">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRChart" Name="chart1" DataSource="#Ref-4" SizeF="640,386.6667" LocationFloat="34.1666679, 32.5" BorderColor="Black" Borders="None">
+          <Chart Ref="6">
+            <DataContainer Ref="7">
+              <SeriesSerializable>
+                <Item1 Ref="8" Name="Series 1" LegendName="Default Legend" ArgumentDataMember="Series1.X" ValueDataMembersSerializable="Series1.Y" LabelsVisibility="True" ShowInLegend="false">
+                  <View Ref="9" MarkerVisibility="False" Color="Black" TypeNameSerializable="SplineSeriesView">
+                    <LineStyle Ref="10" Thickness="1" />
+                  </View>
+                  <Label Ref="11" TypeNameSerializable="PointSeriesLabel" TextAlignment="Near">
+                    <Border Ref="12" Visibility="False" />
+                  </Label>
+                </Item1>
+                <Item2 Ref="13" Name="Series 2" ArgumentDataMember="Series2.X" ValueDataMembersSerializable="Series2.Y" LabelsVisibility="False" ShowInLegend="false">
+                  <View Ref="14" TypeNameSerializable="SplineSeriesView" />
+                </Item2>
+              </SeriesSerializable>
+            </DataContainer>
+            <OptionsPrint Ref="15" ImageFormat="Metafile" />
+            <Diagram Ref="16" TypeNameSerializable="XYDiagram">
+              <AxisX Ref="17" VisibleInPanesSerializable="-1">
+                <Title Ref="18" Visibility="True" Text="Angle 2 Theta [Degree]" />
+                <CrosshairAxisLabelOptions Ref="19" Visibility="False" />
+                <WholeRange Ref="20" Auto="false" MinValueSerializable="44" MaxValueSerializable="46" />
+                <NumericScaleOptions Ref="21" AutoGrid="false" GridSpacing="0.4">
+                  <IntervalOptions Ref="22" />
+                </NumericScaleOptions>
+              </AxisX>
+              <AxisY Ref="23" VisibleInPanesSerializable="-1">
+                <Tickmarks Ref="24" Visible="false" MinorVisible="false" />
+                <Title Ref="25" Visibility="True" Text="Intensity [KCps]" />
+                <VisualRange Ref="26" Auto="false" AutoSideMargins="false" SideMarginsValue="60" MinValueSerializable="0" MaxValueSerializable="6" />
+                <WholeRange Ref="27" Auto="false" MinValueSerializable="0" MaxValueSerializable="60" />
+                <GridLines Ref="28" Visible="false" />
+                <NumericScaleOptions Ref="29" AutoGrid="false" GridSpacing="10">
+                  <IntervalOptions Ref="30" />
+                </NumericScaleOptions>
+              </AxisY>
+              <DefaultPane Ref="31" EnableAxisXScrolling="False" EnableAxisYScrolling="False" EnableAxisXZooming="False" EnableAxisYZooming="False">
+                <StackedBarTotalLabel Ref="32">
+                  <ConnectorLineStyle Ref="33" />
+                </StackedBarTotalLabel>
+              </DefaultPane>
+            </Diagram>
+          </Chart>
+        </Item1>
+      </Controls>
+    </Item3>
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="4" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v19.1" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2UgTmFtZT0ib2JqZWN0RGF0YVNvdXJjZTEiPjxEYXRhU291cmNlIFR5cGU9IlBvQ1JlcG9ydHMuTW9kZWxzLlhZUG9pbnRDb21iaW5lZFNlcmllc01vZGVsLCBQb0NSZXBvcnRzLk1vZGVscywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIC8+PC9PYmplY3REYXRhU291cmNlPg==" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>

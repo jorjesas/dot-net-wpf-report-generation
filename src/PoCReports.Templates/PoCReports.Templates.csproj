@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ReportTemplates\BackgroundScanGraphicsRpt.repx" />
+    <None Remove="ReportTemplates\GoniometerScanGraphicsCombinedSeriesRpt.repx" />
+    <None Remove="ReportTemplates\GoniometerScanGraphicsRpt.repx" />
+    <None Remove="ReportTemplates\InstrumentConfigurationRpt.repx" />
+    <None Remove="ReportTemplates\IntensityCheckRpt.repx" />
+    <None Remove="ReportTemplates\MasterDetailsRpt.repx" />
+    <None Remove="ReportTemplates\MonochromatorDeadTimeGraphicsRpt.repx" />
+    <None Remove="ReportTemplates\QAGeneralInstrumentDataReport.repx" />
+    <None Remove="ReportTemplates\SpectrometerLayoutRpt.repx" />
+    <None Remove="ReportTemplates\TestCertificateRpt.repx" />
+    <None Remove="ReportTemplates\XtraReport1.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ReportTemplates\BackgroundScanGraphicsRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\GoniometerScanGraphicsCombinedSeriesRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\GoniometerScanGraphicsRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\InstrumentConfigurationRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\IntensityCheckRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\MasterDetailsRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\MonochromatorDeadTimeGraphicsRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\QAGeneralInstrumentDataReport.repx" />
+    <EmbeddedResource Include="ReportTemplates\SpectrometerLayoutRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\TestCertificateRpt.repx" />
+    <EmbeddedResource Include="ReportTemplates\XtraReport1.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Reporting.Core" Version="19.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PoCReports.BusinessLayer\PoCReports.BusinessLayer.csproj" />
+    <ProjectReference Include="..\PoCReports.DataAccessLayer\PoCReports.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\PoCReports.Models\PoCReports.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ReportTemplates\BackgroundScanGraphicsRpt.cs">
+      <DependentUpon>BackgroundScanGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\BackgroundScanGraphicsRpt.Designer.cs">
+      <DependentUpon>BackgroundScanGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\GoniometerScanGraphicsCombinedSeriesRpt.cs">
+      <DependentUpon>GoniometerScanGraphicsCombinedSeriesRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\GoniometerScanGraphicsCombinedSeriesRpt.Designer.cs">
+      <DependentUpon>GoniometerScanGraphicsCombinedSeriesRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\GoniometerScanGraphicsRpt.cs">
+      <DependentUpon>GoniometerScanGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\GoniometerScanGraphicsRpt.Designer.cs">
+      <DependentUpon>GoniometerScanGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\InstrumentConfigurationRpt.cs">
+      <DependentUpon>InstrumentConfigurationRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\InstrumentConfigurationRpt.Designer.cs">
+      <DependentUpon>InstrumentConfigurationRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\IntensityCheckRpt.cs">
+      <DependentUpon>IntensityCheckRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\IntensityCheckRpt.Designer.cs">
+      <DependentUpon>IntensityCheckRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\MasterDetailsRpt.cs">
+      <DependentUpon>MasterDetailsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\MasterDetailsRpt.Designer.cs">
+      <DependentUpon>MasterDetailsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\MonochromatorDeadTimeGraphicsRpt.cs">
+      <DependentUpon>MonochromatorDeadTimeGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\MonochromatorDeadTimeGraphicsRpt.Designer.cs">
+      <DependentUpon>MonochromatorDeadTimeGraphicsRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\QAGeneralInstrumentDataReport.cs">
+      <DependentUpon>QAGeneralInstrumentDataReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\QAGeneralInstrumentDataReport.Designer.cs">
+      <DependentUpon>QAGeneralInstrumentDataReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\SpectrometerLayoutRpt.cs">
+      <DependentUpon>SpectrometerLayoutRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\SpectrometerLayoutRpt.Designer.cs">
+      <DependentUpon>SpectrometerLayoutRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\TestCertificateRpt.cs">
+      <DependentUpon>TestCertificateRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\TestCertificateRpt.Designer.cs">
+      <DependentUpon>TestCertificateRpt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\XtraReport1.cs">
+      <DependentUpon>XtraReport1.repx</DependentUpon>
+    </Compile>
+    <Compile Update="ReportTemplates\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
